@@ -33,9 +33,8 @@ function Formation({ formations }: FormationInfosProps) {
 
   return (
     <div className="formation">
-      <div className="formation__header">
-        <Header />
-      </div>
+      <Header />
+      <div className="formation__header"></div>
       <div className="formation__content">
         <h2 className="formation__content-title">{formation.school}</h2>
 
