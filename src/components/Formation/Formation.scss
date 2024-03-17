@@ -1,0 +1,91 @@
+.formation {
+  display: flex;
+  flex-direction: column;
+  &__items {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    overflow-x: auto;
+    padding-left: 20px;
+    // outline: 1px red solid;
+    @media screen and (min-width: 768px) {
+      overflow: hidden;
+      justify-content: left;
+      margin-left: 10px;
+      gap: 20px;
+    }
+  }
+  &__title {
+    margin-left: 10px;
+    @media screen and (min-width: 768px) {
+      margin-left: 30px;
+    }
+  }
+  &__item {
+    padding: 5px;
+    list-style: none;
+    @media screen and (min-width: 768px) {
+      // overflow: hidden;
+    }
+    // outline: 1px red solid;
+    &-content {
+      @media screen and (min-width: 768px) {
+        position: relative;
+      }
+    }
+    &-image {
+      width: 150px;
+      height: 110px;
+      border-radius: 10px;
+      @media screen and (min-width: 768px) {
+        transition: transform 0.5s ease, filter 0.5s ease;
+        width: 350px;
+        height: 200px;
+        line-height: 110px;
+      }
+    }
+    &-infos {
+      display: none;
+      @media screen and (min-width: 768px) {
+        position: absolute;
+        top: 75%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        // outline: 1px red solid;
+        z-index: 2;
+        width: 90%;
+      }
+      &-school {
+        margin: 0;
+        font-size: 2rem;
+        font-weight: bold;
+      }
+      &-diplome {
+        margin: 0;
+        color: RGB(18, 215, 108);
+        font-weight: bold;
+        font-size: 13px;
+      }
+      &-date {
+        margin: 0;
+      }
+      &-hidden {
+        display: none;
+      }
+    }
+  }
+}
+
+.formation__item-image:hover {
+  // outline: 1px red solid;
+  transform: scale(1.03);
+  filter: brightness(0.5);
+}
+
+.formation__item-link {
+  text-decoration: none;
+}

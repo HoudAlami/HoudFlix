@@ -1,0 +1,96 @@
+.formation {
+  width: 100%;
+  color: white;
+  &__header {
+    height: 40vh;
+    background-image: url('http://localhost:5173/public/assets/oclock.png');
+    background-position: center;
+    background-size: cover;
+    @media screen and (min-width: 768px) {
+      height: 50vh;
+    }
+  }
+  &__content {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    @media screen and (min-width: 768px) {
+      margin-left: 30px;
+    }
+
+    &-title {
+      font-weight: bold;
+      font-size: 2rem;
+      @media screen and (min-width: 768px) {
+        font-size: 3rem;
+      }
+    }
+    &-synopsis {
+      display: flex;
+      flex-direction: column;
+      border-bottom: 5px solid white;
+      width: 95%;
+      @media screen and (min-width: 768px) {
+        width: 99%;
+      }
+
+      &-intro {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        font-size: 1.4rem;
+        @media screen and (min-width: 768px) {
+          font-size: 2rem;
+        }
+        &-diplome {
+          color: #46d369;
+          font-weight: bold;
+        }
+        &-rate {
+          color: #46d369;
+          font-size: 1.1rem;
+          @media screen and (min-width: 768px) {
+            font-size: 1.8rem;
+          }
+        }
+        &-description {
+          font-size: 1.1rem;
+          @media screen and (min-width: 768px) {
+            font-size: 1.8rem;
+          }
+        }
+      }
+    }
+    &-infos {
+      display: flex;
+      flex-direction: column;
+      &-title {
+        font-size: 1.1rem;
+        @media screen and (min-width: 768px) {
+          font-size: 1.8rem;
+        }
+      }
+      &-link {
+        text-decoration: none;
+        color: inherit;
+        font-weight: bold;
+        @media screen and (min-width: 768px) {
+          font-size: 1.5rem;
+        }
+      }
+      &-language {
+        @media screen and (min-width: 768px) {
+          font-size: 1.5rem;
+        }
+        &-details {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+.image {
+  width: 150px;
+  padding: 20px;
+}

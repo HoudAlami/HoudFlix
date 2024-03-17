@@ -1,0 +1,119 @@
+.home {
+  color: white;
+  width: 100%;
+  text-shadow: 5px 5px 5px black;
+
+  &__header {
+    background-image: url('public/assets/tokkyo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    @media screen and (min-width: 768px) {
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      gap: 80px;
+    }
+
+    &-top {
+      display: flex;
+      padding: 1px;
+      justify-content: space-between;
+      align-items: center;
+      @media screen and (min-width: 768px) {
+        padding: 1px;
+      }
+    }
+    &-topLeft {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      @media screen and (min-width: 768px) {
+        gap: 30px;
+      }
+    }
+    &-image {
+      width: 150px;
+    }
+    &-about {
+      text-decoration: none;
+      color: white;
+      font-size: 1.1rem;
+      font-weight: bold;
+      @media screen and (min-width: 768px) {
+        font-size: 1.5rem;
+      }
+    }
+    &-picture {
+      width: 50px;
+      @media screen and (min-width: 768px) {
+        width: 60px;
+      }
+    }
+    &-bottom {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    &-title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      @media screen and (min-width: 768px) {
+        gap: 5px;
+      }
+    }
+    &-h {
+      width: 45px;
+    }
+    &-intro {
+      font-size: 1.9rem;
+      font-weight: bold;
+      @media screen and (min-width: 768px) {
+        font-size: 2.5rem;
+      }
+    }
+    &-text {
+      font-weight: bold;
+      text-align: center;
+      @media screen and (min-width: 768px) {
+        font-size: 1.8rem;
+        text-align: center;
+        margin-left: 30px;
+      }
+    }
+    &-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100px;
+      padding: 10px;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 2px 2px 5px black;
+      margin: 0 auto;
+      font-family: Quicksand;
+      font-weight: bold;
+      font-size: 15px;
+      background-color: red;
+      color: white;
+      @media screen and (min-width: 768px) {
+        width: 200px;
+        padding: 20px;
+        font-size: 20px;
+        cursor: pointer;
+        color: black;
+        background-color: white;
+        transition: background-color 0.3s, color 0.3s;
+      }
+    }
+  }
+}
+.home__header-button:hover {
+  background-color: red;
+  color: white;
+}
+.link {
+  text-decoration: none;
+}
