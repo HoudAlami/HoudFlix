@@ -12,7 +12,7 @@ function Footer() {
           <h3 className="footer__content-download-title">
             Click the button to download the <span className="CV">CV</span>
           </h3>
-          <a href="/assets/CV/Houd Alami Marrouni CV.pdf" download="HoudCv.pdf">
+          <a href="/assets/CV/CvHoudAlami.pdf" download="HoudCv.pdf">
             <button className="footer__content-download-button">
               Download
             </button>
