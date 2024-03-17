@@ -4,7 +4,7 @@ function ProfilPage() {
   return (
     <div className="profilPage">
       <div className="profilPage__header">
-        <img src="public/assets/Houdflix.png" alt="Houdflix" />
+        <img src="/assets/Houdflix.png" alt="Houdflix" />
       </div>
       <div className="profilPage__area">
         <h2 className="profilPage__area-title">Choose your profile</h2>
