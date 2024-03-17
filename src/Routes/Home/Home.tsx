@@ -17,23 +17,6 @@ function Home() {
       <div className="home__header">
         <div className="home__header-top">
           <Header />
-          {/* <div className="home__header-topLeft">
-            <Link to={'/'}>
-              <img
-                src="public/assets/Houdflix.png"
-                alt="logo Houdflix"
-                className="home__header-image"
-              />
-            </Link>
-            <Link to={'/about'} className="home__header-about">
-              <p>About</p>
-            </Link>
-          </div> */}
-          {/* <img
-            src="public/assets/rengoku.jpeg"
-            alt="Houd"
-            className="home__header-picture"
-          /> */}
         </div>
         <div className="home__header-bottom">
           <div className="home__header-title">

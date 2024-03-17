@@ -41,13 +41,6 @@ function Project({ projects }: ProjectInfosProps) {
   return (
     <div className="project">
       <Header />
-      {/* <Link to={'/home'}>
-        <img
-          src="http://localhost:5173/public/assets/Houdflix.png"
-          alt="logo Houdflix"
-          className="image"
-        />
-      </Link> */}
       <div className="project__header">
         <ReactPlayer
           url={project.video}
@@ -56,8 +49,6 @@ function Project({ projects }: ProjectInfosProps) {
           height="100%"
           width="100%"
         />
-
-        {/* <img src={project.image} alt="/" className="project__header-image" /> */}
       </div>
       <div className="project__content">
         <h2 className="project__content-title">{project.title}</h2>

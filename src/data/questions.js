@@ -23,7 +23,7 @@ export default [
   },
   {
     id: 5,
-    question: "Why you specifically",
+    question: "Why me specifically",
     answer: "I know that I do not have the experience that other profiles may have but I am sure to be the one with the most determination and discipline. My desire to learn and become a web developer pushes me to surpass myself every day. I have soft skills, obtained thanks to my past experience that I can easily transpose into web development (teamwork, communication, organizational skills, etc).    "
 
   },
