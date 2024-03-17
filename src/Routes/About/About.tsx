@@ -46,11 +46,7 @@ function About({ questions }: QuestionProps) {
                   className="about__header-content-contact-area-button"
                 >
                   Contact Me
-                  <img
-                    src="/assets/fleche-droite.png"
-                    alt="arrow"
-                    className="arrow"
-                  />
+                  <img src="/assets/arrow.png" alt="arrow" className="arrow" />
                 </button>
               </a>
             </div>
@@ -75,7 +71,7 @@ function About({ questions }: QuestionProps) {
                 <h3 className="about__content-questions-list-item-title">
                   {question.question}
                   <img
-                    src="public/assets/fleche-droite.png"
+                    src="/assets/arrow.png"
                     alt="arrow"
                     className={`arrow ${
                       showContent === question.id ? 'arrow-rotate' : ''
