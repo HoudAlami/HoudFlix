@@ -20,7 +20,7 @@ function Home() {
         </div>
         <div className="home__header-bottom">
           <div className="home__header-title">
-            <img src="public/assets/H.png" alt="H" className="home__header-h" />
+            <img src="/assets/H.png" alt="H" className="home__header-h" />
             <h2 className="home__header-intro">Learn more about Houd</h2>
           </div>
           <p className="home__header-text">

@@ -43,9 +43,6 @@ function Formation({ formations }: FormationInfosProps) {
           <p className="formation__content-synopsis-intro-description">
             {formation.description}
           </p>
-          {/* <p className="formation__content-synopsis-intro-rate">
-            {formation.rate}
-          </p> */}
           <div className="formation__content-synopsis-intro">
             <p className="formation__content-synopsis-intro-diplome">
               {formation.diplome}

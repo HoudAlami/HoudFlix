@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './About.scss';
-import Footer from '../../components/FooterCv/FooterCv';
-import { Link } from 'react-router-dom';
+// import Footer from '../../components/FooterCv/FooterCv';
+// import { Link } from 'react-router-dom';
 import FooterLink from '../../components/FooterLink/FooterLink';
 import Header from '../../components/Header/Header';
 
@@ -47,7 +47,7 @@ function About({ questions }: QuestionProps) {
                 >
                   Contact Me
                   <img
-                    src="public/assets/fleche-droite.png"
+                    src="/assets/fleche-droite.png"
                     alt="arrow"
                     className="arrow"
                   />

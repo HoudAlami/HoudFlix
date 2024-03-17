@@ -40,12 +40,8 @@ function Hobbies({ hobbies }: HobbieInfosProps) {
           <p className="hobbie__content-synopsis-intro-details">
             {hobbie.details}
           </p>
-          {/* <p className="formation__content-synopsis-intro-rate">
-          {formation.rate}
-        </p> */}
           <div className="hobbie__content-synopsis-intro">
             <p className="hobbie__content-synopsis-intro-rate">{hobbie.rate}</p>
-
             <p className="hobbie__content-synopsis-intro-school">
               {hobbie.date}
             </p>

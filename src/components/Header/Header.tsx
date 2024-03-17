@@ -5,7 +5,7 @@ function Header() {
     <div className="header">
       <Link to={'/home'}>
         <img
-          src="http://localhost:5173/public/assets/Houdflix.png"
+          src="/assets/Houdflix.png"
           alt="header-logo"
           className="header__logo"
         />

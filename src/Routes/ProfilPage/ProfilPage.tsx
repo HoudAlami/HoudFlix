@@ -11,18 +11,14 @@ function ProfilPage() {
         <div className="profilPage__area-items">
           <Link to={'home'} className="links">
             <div className="profilPage__area-item">
-              <img
-                src="public/assets/Houd.jpg"
-                alt="Houd"
-                className="item__image"
-              />
+              <img src="/assets/Houd.jpg" alt="Houd" className="item__image" />
               <h3>Houd</h3>
             </div>
           </Link>
           <Link to={'home'} className="links">
             <div className="profilPage__area-item">
               <img
-                src="public/assets/recruteurs.jpg"
+                src="/assets/recruteurs.jpg"
                 alt="recruteur"
                 className="item__image"
               />
