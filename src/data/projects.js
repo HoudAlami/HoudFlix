@@ -9,6 +9,7 @@ export default [
     date: 2023,
     technologie: 'ReactJs, Typescript, SCSS, NodeJs, PostgreSQL, Redux',
     video: '/assets/video/manga-sama.mp4',
+    link : "https://manga-sama.onrender.com/"
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ export default [
     description: "Houdflix est né car à la base je voulais créer un clone de Netflix. Cependant en codant, je me suis dit qu'il serait intéressant d'en faire mon portfolio.",
     technologie: 'ReactJs, SCSS',
     video: '/assets/video/Houdflix.mp4',
+    link : "https://houd-alami-marrouni.netlify.app/"
 
 
   },

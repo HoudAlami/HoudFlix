@@ -14,6 +14,7 @@ type ProjectInfos = {
   age: string;
   technologie: string;
   video: string;
+  link: string;
 };
 
 type ProjectInfosProps = {
@@ -70,10 +71,7 @@ function Project({ projects }: ProjectInfosProps) {
           <h3 className="project__content-infos-title">
             Informations sur {project.title}
           </h3>
-          <a
-            href="https://manga-sama.onrender.com/"
-            className="project__content-infos-link"
-          >
+          <a href={project.link} className="project__content-infos-link">
             Lien vers {project.title}
           </a>
           <p className="project__content-infos-language">
