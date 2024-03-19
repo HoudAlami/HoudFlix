@@ -25,7 +25,7 @@ function Hobbies({ hobbies }: HobbiesInfosProps) {
   };
   return (
     <div className="hobbies">
-      <h2 className="hobbies__title">Hobbies</h2>
+      <h2 className="hobbies__title">Centres d'intérêt</h2>
       <ul className="hobbies__items">
         {hobbies.map((hobbie) => (
           <li

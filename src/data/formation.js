@@ -2,11 +2,11 @@ export default [
   {
     id: 1,
     school: "O'Clock",
-    diplome : 'Professional title developer and web developer',
+    diplome : 'Titre professionnel développeur web et web mobile',
     image: '/assets/oclock.png',
     date: 2023,
-    rate : '99.9% recommended',
-    description: "I joined O'Clock in July 2023 and i learned to become a web developer in it. During this intensive learning, i learned HTML and CSS for the basics and then Javascript. For the back-end, i saw NodeJs and PostgreSQL for the database. I chose to learn React and specialize my skills in React. I graduated in March."
+    rate : 'Recommandé à 99.9%',
+    description: "J'ai rejoint l'école O'Clock en juillet 2023 afin d'apprendre a devenir un développeur web. Durant cette apprentissage intensif, j'ai appris le HTML, le CSS et Javascript. J'ai aussi appris pour le back-end NodeJs et PostgreSQL pour les bases de données. Afin d'approfondir mon apprentissage, j'ai choisi d'apprendre React, un framework de Javascript. Je suis diplômé depuis février 2024."
   },
 
 

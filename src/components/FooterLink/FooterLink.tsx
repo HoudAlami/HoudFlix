@@ -15,7 +15,7 @@ function FooterLink() {
         </a>
       </ul>
       <Link to={'/'} className="links">
-        <h3 className="footerLink__logout">Logout</h3>
+        <h3 className="footerLink__logout">Se déconnecter</h3>
       </Link>
     </div>
   );

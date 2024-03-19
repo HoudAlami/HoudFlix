@@ -1,30 +1,34 @@
 export default [
   {
     id: 1,
-    question: 'Who am i ?',
-    answer: "Hello everyone ! My name is Houd ALAMI MARROUNI, i'm 28 and i live in Montigny-Le-Bretonneux (78). I'm a fullstack developer. Very passionate about web development, i like to express my creativity. I'm also very curious and i love to learn new things. Oh, and i'm the father of a beautiful young boy of 11 months"
+    question: 'Qui suis-je ?',
+    answer: "Je m'appelle Houd ALAMI MARROUNI, j'ai 28 ans et j'habite à Montigny-Le-Bretonneux (78). Je suis un développeur Fullstack très passionné par le développement web. J'aime exprimer ma créativité en codant régulièrement divers projets. Je suis aussi très curieux et j'aime apprendre de nouvelles choses. Je suis aussi le père d'un magnifique garçon de 11 mois."
   },
   {
     id: 2,
-    question: 'Why web development ?',
-    answer: "I discovered the world of web development in 2023 and i fell in love with it. After self-taught learning, i decide to join a the school O'Clock in order to make this passion, my profession. "
+    question: 'Pourquoi le développement web ?',
+    answer: "J'ai découvert le monde du développement web en 2023 et j'en suis tombé amoureux. Après un apprentissage en autodidacte, je décide d'intégrer l'école O'Clock afin de faire de cette passion, mon métier. C'est un chemin difficile, mais je m'investis à 100% afin d'atteindre mes objectifs. "
   },
   {
     id: 3,
-    question: 'What is my favorite stack ?',
-    answer: "I really like working with React. Its logic and the possibilities that this framework offers stimulate me a lot; I also like working in pure CSS"
+    question: 'Quelles stacks maîtrises-tu ?',
+    answer: "J'aime énormément travailler avec React. Sa logique ainsi que les possibilités qu'offre React me stimulent beaucoup. Je code essentiellement en Typescript afin de rendre la lecture de mon code et sa maintenabilité plus efficace. J'aime aussi SCSS pour l'aspect visuel de mes projets. Côté back-end j'utilise NodeJS ainsi que PostgreSQL pour la data."
 
   },
   {
     id: 4,
-    question: "What would be my ideal company ?",
-    answer: "It's very simple, a company where I would feel good, surrounded by a caring team who will trust me. A company where I will continue to improve my skills by working on exciting projects."
-
+    question: "Quelle serait mon entreprise idéale ?",
+    answer:" Ce que je recherche principalement, c'est une équipe très solidaire, qui me ferait confiance et inversement. Il s'agit de mon critère numéro un de trouver un bon esprit d'équipe. Je souhaite aussi une entreprise qui me permettra de continuer à monter en compétences et qui n'hésite pas à faire évoluer au sein de l'entreprise, si les résultats le permettent. Enfin, je souhaite une entreprise qui me permettra de travailler sur des projets excitants. "
   },
   {
     id: 5,
-    question: "Why me specifically",
-    answer: "I know that I do not have the experience that other profiles may have but I am sure to be the one with the most determination and discipline. My desire to learn and become a web developer pushes me to surpass myself every day. I have soft skills, obtained thanks to my past experience that I can easily transpose into web development (teamwork, communication, organizational skills, etc).    "
+    question: "Pourquoi moi ?",
+    answer: "J'ai conscience que je ne possède pas l'expérience dans le développement web que d'autres profils peuvent avoir cependant, je suis convaincu d'avoir la détermination et la discipline qui me permettra de mener à bien mes missions. Je me surpasse chaque jour afin de devenir un meilleur développeur. M'avoir dans votre équipe, c'est vous assurer de travailler avec une personne rigoureuse et toujours en quête de faire mieux que la veille."
 
+  },
+  {
+    id: 6,
+    question: "Parle-nous de tes soft-skills ?",
+    answer: "En plus des compétences techniques, il est important d'avoir certaines compétences que l'on appelle soft-skills. Pour ma part, grâce à mes expériences passées, j'ai pu en développer plusieurs. En effet, je suis quelqu'un de très optimiste, d'avenant et je communique énormément. D'un point de vue relationnel, j'aime beaucoup le travail en équipe et j'agis toujours dans le but de maintenir une coopération positive. Je suis quelqu'un de très curieux et j'aime beaucoup apprendre sur tous les sujets. Je suis une personne très ponctuelle et je sais respecter les délais."
   },
 ];

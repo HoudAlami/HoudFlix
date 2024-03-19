@@ -25,7 +25,7 @@ function Projects({ projects }: ProjectInfosProps) {
   };
   return (
     <div className="projects">
-      <h2 className="projects__title">Personal achievements</h2>
+      <h2 className="projects__title">Réalisations personnelles</h2>
       <ul className="projects__items">
         {projects.map((project) => (
           <li

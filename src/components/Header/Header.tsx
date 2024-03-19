@@ -12,7 +12,7 @@ function Header() {
       </Link>
 
       <Link to={'/about'} className="home__header-about">
-        <p>About</p>
+        <p>A propos</p>
       </Link>
     </div>
   );

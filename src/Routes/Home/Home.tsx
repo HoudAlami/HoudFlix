@@ -21,17 +21,18 @@ function Home() {
         <div className="home__header-bottom">
           <div className="home__header-title">
             <img src="/assets/H.png" alt="H" className="home__header-h" />
-            <h2 className="home__header-intro">Learn more about Houd</h2>
+            <h2 className="home__header-intro">En savoir plus sur Houd</h2>
           </div>
           <p className="home__header-text">
-            Hi there ! My name is Houd and i'm a Fullstack Developer
-            (Javascript/Typescript/React/Node) <br></br> In reconversion
-            professional, i'm looking for my first experience of developer.
-            <br></br> I wish you a good visit on my portfolio.
+            Bonjour à tous ! Je m'appelle Houd et je suis un développeur
+            Fullstack (Javascript/Typescript/React/NodeJs). <br></br> En
+            reconversion professionnelle, je recherche l'entreprise où je
+            pourrai m'épanouir.
+            <br></br> Je vous souhaite une bonne visite sur mon portfolio.
           </p>
           <Link to={'/about'} className="link">
             <button type="button" className="home__header-button">
-              MORE
+              PLUS
             </button>
           </Link>
         </div>

@@ -29,12 +29,13 @@ function About({ questions }: QuestionProps) {
 
         <div className="about__header-content">
           <h2 className="about__header-content-title">
-            If you want to know more about me,
-            <br /> you have some questions with answer bellow.
+            Afin d'en savoir plus sur moi,
+            <br /> vous avez quelques questions ainsi que leur réponse en
+            dessous.
           </h2>
-          <h3 className="about__header-content-text">
+          {/* <h3 className="about__header-content-text">
             It's with plasurre that i will be able to exchange with you
-          </h3>
+          </h3> */}
           <div className="about__header-content-contact">
             <div className="about__header-content-contact-area">
               <p className="about__header-content-contact-area-mail">
@@ -45,13 +46,14 @@ function About({ questions }: QuestionProps) {
                   type="button"
                   className="about__header-content-contact-area-button"
                 >
-                  Contact Me
+                  Me contacter
                   <img src="/assets/arrow.png" alt="arrow" className="arrow" />
                 </button>
               </a>
             </div>
             <p className="about__header-content-contact-text">
-              Ready to talk with me ? Click the red button and send me an email
+              Cliquez sur le bouton rouge afin de m'envoyer directement un
+              E-mail.
             </p>
           </div>
         </div>
@@ -59,7 +61,7 @@ function About({ questions }: QuestionProps) {
       <div className="about__content">
         <div className="about__content-questions">
           <h2 className="about__content-questions-title">
-            Questions I am often asked
+            Questions afin de mieux me connaître :
           </h2>
           <ul className="about__content-questions-list">
             {questions.map((question) => (

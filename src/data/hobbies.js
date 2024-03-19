@@ -2,25 +2,25 @@ export default [
   {
     id: 1,
     hobbie: "Football",
-    rate : '99.9% recommended',
+    rate : 'Recommandé à 99.9%',
     image: '/assets/football.jpg',
-    details: "I played football all my life, from 5 to 20 years old. I played at a high-level in my adolescence and now i'm a big football fan. Most Important, Glory Manchester United",
+    details: "J'ai pratiqué le football toute ma vie, de mes 5 ans à mes 20 ans. J'ai joué à un haut niveau pendant mon adolescence (U17 nationaux). Je ne pratique plus aujourd'hui, mais je reste un grand consommateur de football et je suis un grand supporter de Manchester United.",
     date: 2001
   },
   {
     id: 2,
     hobbie: "MMA",
-    rate : '99.9% recommended',
+    rate : 'Recommandé à 99.9%',
     image: '/assets/mma.jpg',
-    details: "I have been practicing MMA for 2 years now. Discipline and rigor are the states of mind to have in MMA, as in web development! I've done a few fights but don't worry, I'm a nice person.",
+    details: "Je pratique le MMA depuis maintenant 2 ans. La discipline et la rigueur sont 2 aspects très importants en MMA, exactement comme dans le développement web ! J'ai effectué quelques combats, mais je vous rassure, je suis un quelqu'un de sympa.",
     date: 2022
   },
   {
     id: 3,
     hobbie: "Code",
-    rate : '99.9% recommended',
+    rate : 'Recommandé à 99.9%',
     image: '/assets/code.jpg',
-    details: "By discovering coding, it became a passion. I can make a video game as I can code a personal project I have fun in both cases",
+    details: "Lorsque j'ai découvert le code, j'ai tout de suite été passionné par cela. Que ce soit en jouant aux jeux vidéo ou en codant, je prends du plaisir dans les deux cas.",
     date: 2023
   }
 ];

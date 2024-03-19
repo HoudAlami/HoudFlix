@@ -68,16 +68,16 @@ function Project({ projects }: ProjectInfosProps) {
         </div>
         <div className="project__content-infos">
           <h3 className="project__content-infos-title">
-            Informations about {project.title}
+            Informations sur {project.title}
           </h3>
           <a
             href="https://manga-sama.onrender.com/"
             className="project__content-infos-link"
           >
-            Website link
+            Lien vers {project.title}
           </a>
           <p className="project__content-infos-language">
-            technologies used :
+            Technologies utilisées :
             <span className="project__content-infos-language-details">
               {' '}
               {project.technologie}

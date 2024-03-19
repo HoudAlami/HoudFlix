@@ -7,7 +7,7 @@ function ProfilPage() {
         <img src="/assets/Houdflix.png" alt="Houdflix" />
       </div>
       <div className="profilPage__area">
-        <h2 className="profilPage__area-title">Choose your profile</h2>
+        <h2 className="profilPage__area-title">Choisissez votre profil</h2>
         <div className="profilPage__area-items">
           <Link to={'home'} className="links">
             <div className="profilPage__area-item">
@@ -22,7 +22,7 @@ function ProfilPage() {
                 alt="recruteur"
                 className="item__image"
               />
-              <h3>Recruiters</h3>
+              <h3>Recruteurs</h3>
             </div>
           </Link>
         </div>
