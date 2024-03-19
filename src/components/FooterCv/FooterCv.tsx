@@ -5,8 +5,8 @@ function Footer() {
     <div className="footer">
       <div className="footer__content">
         <h2 className="footer__content-title">
-          Downloading is strictly prohibited. Prosecutions may be liable in the
-          event of illegal downloading
+          Le téléchargement est strictement interdit. Des poursuites peuvent
+          être engagées en cas de télécargement illégal.
         </h2>
         <div className="footer__content-download">
           <h3 className="footer__content-download-title">
